@@ -1,7 +1,7 @@
 # Fuzzy-Ad-Hoc-Network-Simulation
 Real-Time Fuzzy Ad Hoc Network Simulation
 The provided code integrates Python's Pygame library for real-time visualization and scikit-fuzzy for fuzzy logic control, creating an ad hoc network simulation. Pygame initializes a 600x600 window where nodes, represented as circles, can move randomly within bounds, visually indicating their connectivity through lines to neighbors. Each node's behavior, including movements and communications (broadcasts, receptions, and decisions), is determined through fuzzy logic controllers. These controllers use fuzzy sets and rules defined on inputs like 'signal_strength' and 'traffic_load' to produce decisions influencing the nodes' actions in the network. The network class manages these nodes, updating their states and redrawing them at a rate controlled by a 60 Hz clock. The simulation logs movements, message broadcasts, and fuzzy decisions to the console, providing insights into the dynamic interactions within the network, all aimed at demonstrating potential real-world applications in dynamic and decentralized network environments.
-
+![Fuzzy Ad Hoc](https://github.com/user-attachments/assets/587d0ed1-20e9-472b-b2df-936cec44a285)
 Key Functions of the Ad Hoc Network Simulation:
 Node Initialization: Each node is initialized with a unique ID, position, neighbors, and routing information.
 Movement: Nodes move randomly within the window boundaries, simulating mobility in an ad hoc network.
